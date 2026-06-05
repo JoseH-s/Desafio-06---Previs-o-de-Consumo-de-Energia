@@ -12,9 +12,8 @@ Aplicação Streamlit para prever o consumo de energia elétrica residencial (Gl
 
 ```
 ├── app.py                              # Aplicação Streamlit
-├── train_model.py                      # Script para treinar e salvar o modelo
-├── model.pkl                           # Modelo Random Forest salvo (gerar via train_model.py)
-├── scaler.pkl                          # StandardScaler salvo (gerar via train_model.py)
+├── model.joblib                          # Modelo Random Forest salvo
+├── scaler.joblib                        # StandardScaler salvo
 ├── requirements.txt                    # Dependências Python
 └── household_power_consumption.txt     # Dataset UCI (não incluído — baixar separado)
 ```
@@ -49,9 +48,8 @@ streamlit run app.py
 
 1. Crie um repositório no GitHub e suba os arquivos:
    - `app.py`
-   - `train_model.py`
-   - `model.pkl` ← **obrigatório** (gere localmente e suba)
-   - `scaler.pkl` ← **obrigatório** (gere localmente e suba)
+   - `model.joblib` ← **obrigatório** (gere localmente e suba)
+   - `scaler.joblib` ← **obrigatório** (gere localmente e suba)
    - `requirements.txt`
 
 2. Acesse [share.streamlit.io](https://share.streamlit.io) e faça login com GitHub.
@@ -62,7 +60,7 @@ streamlit run app.py
 
 4. Clique em **Deploy** e aguarde. O link público será gerado automaticamente.
 
-> ⚠️ Os arquivos `model.pkl` e `scaler.pkl` precisam estar no repositório GitHub.
+> ⚠️ Os arquivos `model.joblib` e `scaler.joblib` precisam estar no repositório GitHub.
 > O dataset **não** precisa estar no repositório após o treinamento.
 
 ---
