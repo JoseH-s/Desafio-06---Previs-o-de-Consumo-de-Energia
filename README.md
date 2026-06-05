@@ -8,7 +8,7 @@ Aplicação Streamlit para prever o consumo de energia elétrica residencial (Gl
 
 ---
 
-## 📁 Estrutura do repositório
+## Estrutura do repositório
 
 ```
 ├── app.py                              # Aplicação Streamlit
@@ -20,7 +20,7 @@ Aplicação Streamlit para prever o consumo de energia elétrica residencial (Gl
 
 ---
 
-## 🚀 Como rodar localmente
+## Como rodar localmente
 
 ### 1. Instalar dependências
 ```bash
@@ -44,7 +44,7 @@ streamlit run app.py
 
 ---
 
-## ☁️ Deploy no Streamlit Community Cloud
+## Deploy no Streamlit Community Cloud
 
 1. Crie um repositório no GitHub e suba os arquivos:
    - `app.py`
@@ -60,12 +60,12 @@ streamlit run app.py
 
 4. Clique em **Deploy** e aguarde. O link público será gerado automaticamente.
 
-> ⚠️ Os arquivos `model.joblib` e `scaler.joblib` precisam estar no repositório GitHub.
+> Os arquivos `model.joblib` e `scaler.joblib` precisam estar no repositório GitHub.
 > O dataset **não** precisa estar no repositório após o treinamento.
 
 ---
 
-## 🔢 Variáveis de entrada do modelo
+## Variáveis de entrada do modelo
 
 | Variável | Descrição |
 |---|---|
@@ -84,7 +84,7 @@ streamlit run app.py
 
 ---
 
-## ⚠️ Nota metodológica (devolutiva P1)
+## Nota metodológica
 
 O modelo inclui variáveis contemporâneas ao target (potência reativa, tensão, intensidade, sub-medidores),
 o que pode caracterizar **data leakage** em cenário de predição real. Em produção, apenas as features de
