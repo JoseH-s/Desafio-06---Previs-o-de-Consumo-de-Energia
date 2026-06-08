@@ -8,9 +8,9 @@ Aplicação de Machine Learning para prever o consumo de energia elétrica resid
 
 | Nome | RA |
 |------|----|
-| (preencher) | (preencher) |
-| (preencher) | (preencher) |
-| (preencher) | (preencher) |
+|Gabriel Barboza Formigon|RA:1990475|
+|Ítalo Ricci|RA:1993169|
+|José Henrique Ribeiro dos Santos|RA:1994042|
 
 ---
 
